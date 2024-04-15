@@ -5,10 +5,10 @@ import lombok.Data;
 
 @Data
 @Builder
-public class TitleTextValue {
+public class TextValue {
 
     private String type;
 
-    private TitleTextContentValue text;
+    private TextContentValue text;
 
 }

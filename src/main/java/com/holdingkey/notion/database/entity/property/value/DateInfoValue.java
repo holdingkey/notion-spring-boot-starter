@@ -5,8 +5,8 @@ import lombok.Data;
 
 @Data
 @Builder
-public class TitleTextContentValue {
+public class DateInfoValue {
 
-    private String content;
+    private String start;
 
 }

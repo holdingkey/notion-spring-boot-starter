@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Data
-@ConfigurationProperties(prefix = "notion")
+@ConfigurationProperties(prefix = "spring.notion")
 public class NotionProperties {
 
     private Integer readTimeout = 100;
